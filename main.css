@@ -1,11 +1,35 @@
-.main-title {
-  color: red;
-  text-decoration: underline;
-  font-size: : 100px;
-  height: 200px;
+.nav {
+  width: 800px;
+  height:250px;
+  color: orangered;
+
 }
-h2 {
-  color: green;
-  text-decoration: underline;erline
-  ;
+
+.mainad {
+  padding: 400px;
+  color: white;
+  background-color: orangered;
+  text-siz
+
+}
+
+.productdetails {
+  text-align: center;
+}
+
+.SRS {
+  text-align: center;
+  background-color: lightgrey;
+  height: 75px;
+}
+
+.bottomad {
+  color: white;
+  background-color: orangered;
+  text-align: center;
+
+}
+
+.bottomnav {
+  color: orangered
 }
