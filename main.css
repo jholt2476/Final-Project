@@ -1,20 +1,48 @@
-.nav {
-  width: 800px;
-  height:250px;
+.nav1 {
   color: orangered;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 25px;
+}
+.men {display: inline-block;}
+.women {display: inline-block; text-decoration: underline;}
+.boys {display: inline-block;}
+.girls {display: inline-block;}
+.customize {display: inline-block;}
+
+.nav2 {
+  color: orangered;
+  display: inline-block;
+  float: right;
+  letter-spacing: 2px
+}
+.help {display: inline-block;}
+.myaccount {display: inline-block;}
+.shoppingcart {display: inline-block;}
+
+.mainadsections {
 
 }
 
-.mainad {
-  padding: 400px;
+.mainadsection1 {
+  padding: 300px;
   color: white;
   background-color: orangered;
-  text-siz
+
 
 }
 
-.productdetails {
-  text-align: center;
+  .mainadsection2 {
+
+  }
+
+.productdetailstitle {
+  text-align: left;
+  color: orangered
+}
+
+.productdetailstitle {
+  color: black
 }
 
 .SRS {
@@ -28,8 +56,27 @@
   background-color: orangered;
   text-align: center;
 
+
 }
 
-.bottomnav {
-  color: orangered
+.bottomnav1 {
+  color: orangered;
+  display: inline-block;
+  letter-spacing: 2px'
 }
+  .men {display: inline-block;}
+  .women {display: inline-block; text-decoration: underline;}
+  .boys {display: inline-block;}
+  .girls {display: inline-block;}
+  .customize {display: inline-block;}
+
+.bottomnav2 {
+display: inline-block;
+letter-spacing: 2px;
+padding: 25px;
+float: right;
+}
+
+.shipping {display: inline-block; text-decoration: underline;}
+.termsconditions {display: inline-block; text-decoration: underline;}
+.copyright {display: inline-block;}
