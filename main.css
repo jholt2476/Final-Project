@@ -16,16 +16,16 @@
   float: right;
   letter-spacing: 2px
 }
+
 .help {display: inline-block;}
 .myaccount {display: inline-block;}
 .shoppingcart {display: inline-block;}
 
 .mainadsections {
-
 }
 
 .mainadsection1 {
-  padding: 300px;
+
   color: white;
   background-color: orangered;
 
@@ -34,16 +34,25 @@
 
   .mainadsection2 {
 
+  
+
   }
+
 
 .productdetailstitle {
   text-align: left;
-  color: orangered
+  color: orangered;
+  padding: 50px;
 }
 
-.productdetailstitle {
-  color: black
+.productdetails {
+  color: black;
+  padding: 50px;
+
 }
+  .product {display: inline-block; letter-spacing: 2px; padding-right: 10px; text-decoration: underline; color: brown}
+  .size {display: inline-block; letter-spacing: 2px; color: red;}
+  .reveiw {color: red; float: right;}
 
 .SRS {
   text-align: center;
@@ -54,16 +63,14 @@
 .bottomad {
   color: white;
   background-color: orangered;
-  text-align: center;
-
-
+  display: inline-flex;
 }
 
 .bottomnav1 {
   color: orangered;
-  display: inline-block;
   letter-spacing: 2px'
 }
+
   .men {display: inline-block;}
   .women {display: inline-block; text-decoration: underline;}
   .boys {display: inline-block;}
@@ -73,10 +80,10 @@
 .bottomnav2 {
 display: inline-block;
 letter-spacing: 2px;
-padding: 25px;
 float: right;
+padding-left: 50px;
 }
 
-.shipping {display: inline-block; text-decoration: underline;}
+.shipping {display: inline-block; text-decoration:underline;}
 .termsconditions {display: inline-block; text-decoration: underline;}
 .copyright {display: inline-block;}
