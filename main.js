@@ -23,3 +23,18 @@ var math = high-low
 console.log(math);
 math= high-"5"
 console.log(math);
+
+function greeting(){ //"name" = parameter
+
+  return "welcome" + name;
+
+  greeting("Jim");//argument
+}
+
+var animal = {
+  name: 'Elle',
+  age: 6,
+  location: 'Wildlife Trust',
+  foods: ['Tomatoes', 'Corn on the Cob'],
+  hobbies: ['Laying in the sun', 'swimming in the pond']
+}
