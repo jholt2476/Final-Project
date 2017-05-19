@@ -1,40 +1,17 @@
-var givenName;
-console.log(givenName);
+$(".buy-button").click(function(){
+    $(".buy-button").text("ADDED TO CART")
+})
 
-givenName = "Brett";
-console.log(givenName);
+  var men = $(".men");
+  var women = $(".women");
+  var boys = $(".boys");
+  var girls = $(".girls");
+  var customize = $(".customize");
+  var help = $(".help");
+  var myaccount = $(".myaccount");
+  var shoppingcart = $(".shoppingcart");
 
-givenName = givenName;
-console.log(givenName);
-
-var question;
-console.log(question);
-
-question="HelloHowAreYou";
-console.log(question);
-
-var greeting= question+givenName;
-console.log(greeting);
-
-var high=50;
-var low=10;
-
-var math = high-low
-console.log(math);
-math= high-"5"
-console.log(math);
-
-function greeting(){ //"name" = parameter
-
-  return "welcome" + name;
-
-  greeting("Jim");//argument
-}
-
-var animal = {
-  name: 'Elle',
-  age: 6,
-  location: 'Wildlife Trust',
-  foods: ['Tomatoes', 'Corn on the Cob'],
-  hobbies: ['Laying in the sun', 'swimming in the pond']
-}
+  shoppingcart.click(function(){
+    shoppingcart.toggleClass("nav-underline")
+    shoppingcart.css("text-decoration-color", "red")
+  })

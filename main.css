@@ -5,7 +5,7 @@
   padding: 25px;
 }
 .men {display: inline-block;}
-.women {display: inline-block; text-decoration: underline;}
+.women {display: inline-block;}
 .boys {display: inline-block;}
 .girls {display: inline-block;}
 .customize {display: inline-block;}
@@ -23,33 +23,43 @@
 .shoppingcart {display: inline-block;}
 
 .topsections {
-  display: inline-block;
+
+  background-color: orangered;
 }
 
 .mainadsection1 {
   color: white;
   background-color: orangered;
   display: inline-block;
+
 }
-.backtoallshoes {
-  display: inline-block;
-}
+
 
 .mainadsection2 {
     display: inline-block;
-    float: right;
+
+    color: white;
   }
+
+  .button {
+    background-color: white;
+    color: orangered;
+
+
+  }
+
 .quicksneakers {font-size: 100px;}
-.springsummer {text-decoration-color: black;}
-.ipsum1 {display:block;}
+.springsummer {color: black;}
+.ipsum1 {border: 50px;}
+
 
 .productdetailstitle {
   text-align: left;
   color: orangered;
   padding-left: 200px;
   padding-top: 20px;
-  text-decoration: underline;
-  text-decoration-style: solid;
+  border-bottom: orangered;
+
 }
 .reviews {
   float: right;
@@ -76,16 +86,16 @@
 .bottomad {
   color: white;
   background-color: orangered;
-  display: inline-block;
   padding: 250px;
   padding-top: 100px;
   padding-bottom: 100px;
 
 
+
 }
-  .shoe1 {display: inline-block;}
-  .shoe2{display: inline-block; }
-  .shoe3{display: inline-block;}
+  .shoe1 {display: inline-block; padding-left: 400px;}
+  .shoe2{display: inline-block; padding-left: 400px;}
+  .shoe3{display: inline-block;padding-left: 400px;}
 
 .bottomnav1 {
   color: orangered;
